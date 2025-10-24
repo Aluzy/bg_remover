@@ -1,0 +1,17 @@
+# Dépendances pour l'application de suppression d'arrière-plan
+
+# Bibliothèque principale pour la suppression d'arrière-plan
+rembg[cpu]>=2.0.50
+
+# Traitement d'images
+Pillow>=9.3.0
+
+# Tkinter est généralement inclus avec Python
+# Si vous avez des problèmes avec Tkinter :
+# - Ubuntu/Debian: sudo apt-get install python3-tk
+# - Fedora: sudo dnf install python3-tkinter
+# - macOS/Windows: inclus par défaut
+
+# Pour utiliser le GPU (optionnel, nécessite NVIDIA CUDA):
+# Décommentez la ligne suivante et commentez rembg[cpu] ci-dessus
+# rembg[gpu]>=2.0.50
